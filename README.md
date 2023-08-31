@@ -86,6 +86,9 @@ The **correct steps** to create a new realease are the following:
 
 The CI will run when you create the new release.
 
+# Docs
+We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs
+
 # Q&A
 
 ## Why no cookiecutter?
