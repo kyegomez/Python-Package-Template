@@ -22,6 +22,9 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
+python = "^3.6"
+swarms = "*"
+zetascale = "*"
 python = "^3.9"
 
 
