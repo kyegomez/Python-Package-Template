@@ -60,14 +60,6 @@ The CI will run when you create the new release.
 # Docs
 We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
 
-# Q&A
-
-## Why no cookiecutter?
-This is a template repo, it's meant to be used inside GitHub upon repo creation.
-
-## Why reinvent the wheel?
-
-There are several very good templates on GitHub, I prefer to use code we wrote instead of blinding taking the most starred template and having features we don't need. From experience, it's better to keep it simple and general enough for our specific use cases.
 
 # Tests
 `pytest`
