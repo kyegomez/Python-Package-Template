@@ -11,27 +11,9 @@ You can install the package using pip
 ```bash
 pip install -e .
 ```
-## Structure
-```
-├── LICENSE
-├── Makefile
-├── README.md
-├── agorabanner.png
-├── example.py
-├── package
-│   ├── __init__.py
-│   ├── main.py
-│   └── subfolder
-│       ├── __init__.py
-│       └── main.py
-├── pyproject.toml
-└── requirements.txt
 
-2 directories, 11 files
-```
 # Usage
 
-# Documentation
 
 
 ### Code Quality 🧹
@@ -98,10 +80,8 @@ This is a template repo, it's meant to be used inside GitHub upon repo creation.
 
 There are several very good templates on GitHub, I prefer to use code we wrote instead of blinding taking the most starred template and having features we don't need. From experience, it's better to keep it simple and general enough for our specific use cases.
 
-# Architecture
+# Tests
+`pytest`
 
 # License
 MIT
-
-
-
