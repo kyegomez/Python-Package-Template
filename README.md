@@ -42,9 +42,6 @@ poetry build
 poetry publish
 ```
 
-
-**Note**: We will try to push to [test pypi](https://test.pypi.org/) before pushing to pypi, to assert everything will work
-
 ### CI/CD 🤖
 
 We use [GitHub actions](https://github.com/features/actions) to automatically run tests and check code quality when a new PR is done on `main`.
@@ -61,7 +58,7 @@ The **correct steps** to create a new realease are the following:
 The CI will run when you create the new release.
 
 # Docs
-We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs
+We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
 
 # Q&A
 
