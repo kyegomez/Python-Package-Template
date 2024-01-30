@@ -22,8 +22,6 @@ print("hello world")
 
 ### Code Quality 🧹
 
-We provide two handy commands inside the `Makefile`, namely:
-
 - `make style` to format the code
 - `make check_code_quality` to check code quality (PEP8 basically)
 - `black .`
@@ -61,8 +59,6 @@ The CI will run when you create the new release.
 We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
 
 
-# Tests
-`pytest`
 
 # License
 MIT
