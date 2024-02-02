@@ -16,8 +16,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Init environment 
-        uses: ./.github/actions/init-environment 
       - name: Run linter
         run: |
           pylint `git diff --name-only --diff-filter=d origin/main HEAD | grep -E '\.py$' | tr '\n' ' '`
