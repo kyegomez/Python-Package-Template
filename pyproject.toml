@@ -7,24 +7,23 @@ name = "paper"
 version = "0.0.1"
 description = "Paper - Pytorch"
 license = "MIT"
-authors = ["Kye Gomez <kye@apac.ai>"]
-homepage = "https://github.com/kyegomez/paper"
-documentation = "https://github.com/kyegomez/paper"  # Add this if you have documentation.
+authors = ["Evelyn Mitchell <efmphone@gmail.com"]
+homepage = "https://github.com/evelynmmitchell/paper"
+documentation = "https://github.com/evelynmitchell/paper"  # Add this if you have documentation.
 readme = "README.md"  # Assuming you have a README.md
-repository = "https://github.com/kyegomez/paper"
+repository = "https://github.com/evelynmitchell/paper"
 keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3.9"
+    "Programming Language :: Python :: 3.10"
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-swarms = "*"
-zetascale = "*"
+python = "^3.10"
+
 
 [tool.poetry.dev-dependencies]
 # Add development dependencies here

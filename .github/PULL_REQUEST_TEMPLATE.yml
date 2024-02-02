@@ -1,4 +1,4 @@
-<!-- Thank you for contributing to Zeta!
+<!-- Thank you for contributing! 
 
 Replace this comment with:
   - Description: a description of the change, 
@@ -12,11 +12,8 @@ If you're adding a new integration, please include:
   2. an example notebook showing its use.
 
 Maintainer responsibilities:
-  - nn / Misc / if you don't know who to tag: kye@apac.ai
-  - tokenizers: kye@apac.ai
-  - training / Prompts: kye@apac.ai
-  - models: kye@apac.ai
+  - nn / Misc / if you don't know who to tag: efmphone@gmail.com
 
-If no one reviews your PR within a few days, feel free to kye@apac.ai
+If no one reviews your PR within a few days, feel free to comment on the PR
 
 See contribution guidelines for more information on how to write/run tests, lint, etc: https://github.com/kyegomez/zeta

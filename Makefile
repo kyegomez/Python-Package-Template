@@ -20,3 +20,9 @@ publish:
 	twine upload -r testpypi dist/* -u ${PYPI_USERNAME} -p ${PYPI_TEST_PASSWORD} --verbose 
 	twine check dist/*
 	twine upload dist/* -u ${PYPI_USERNAME} -p ${PYPI_PASSWORD} --verbose 
+
+test:
+	pytest -v --cov=src --cov-report=term-missing --cov-report=xml --cov-report=html tests
+
+extended_test:
+	pytest -v --cov=src --cov-report=term-missing --cov-report=xml --cov-report=html --cov-fail-under=90 tests/performance

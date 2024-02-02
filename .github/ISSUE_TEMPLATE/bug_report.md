@@ -3,7 +3,7 @@ name: Bug report
 about: Create a detailed report on the bug and it's root cause. Conduct root cause error analysis
 title: "[BUG] "
 labels: bug
-assignees: kyegomez
+assignees: evelynmitchell
 
 ---
 
