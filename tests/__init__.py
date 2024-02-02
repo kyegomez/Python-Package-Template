@@ -1,1 +1,3 @@
-""" Tiny Time Mixers - Tests """
+""" package - Tests """
+
+from package import main
