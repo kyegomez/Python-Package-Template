@@ -1,4 +1,4 @@
-name: Quality
+name: Quality - pylint
 
 on:
   push:
@@ -18,4 +18,5 @@ jobs:
           fetch-depth: 0
       - name: Run linter
         run: |
+          pip install pylint
           pylint `git diff --name-only --diff-filter=d origin/main HEAD | grep -E '\.py$' | tr '\n' ' '`
