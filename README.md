@@ -22,6 +22,25 @@ print("hello world")
 
 ### Code Quality 🧹
 
+This project uses poetry, venv and pre-commit hooks.
+
+Once on project set up run:
+```
+python -m venv /path/to/new/virtual/environment
+```
+where /path/to/new/virtual/environment is the path to the new virtual environment you want to create. I suggest /project/.venv as a good idea.
+
+Then activate the virtual environment by running:
+```
+source .venv/bin/activate
+```
+
+When you are done working in this venv you can deactivate it by running:
+``` 
+source deactivate
+```
+
+
 We provide two handy commands inside the `Makefile`, namely:
 
 - `make style` to format the code

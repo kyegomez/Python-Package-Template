@@ -1,3 +1,4 @@
+  - id: poetry-check
 repos:
   - repo: https://github.com/ambv/black
     rev: 22.3.0
@@ -16,3 +17,10 @@ repos:
     - id: nbqa-ruff 
       args: ["--ignore=I001"]
       additional_dependencies: [ipython==8.12, ruff]
+  - repo: local
+    hooks:
+      - id: poetry-check
+        name: poetry check
+        entry: ./poetry_check.sh
+        language: script
+        pass_filenames: false
