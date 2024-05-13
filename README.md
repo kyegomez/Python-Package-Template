@@ -22,6 +22,7 @@ print("hello world")
 
 ### Code Quality 🧹
 
+
 This project uses poetry, venv and pre-commit hooks.
 
 Once on project set up run:
@@ -80,8 +81,6 @@ The CI will run when you create the new release.
 We use MK docs. This repo comes with the zeta docs. All the docs configurations are already here along with the readthedocs configs.
 
 
-# Tests
-`pytest`
 
 # License
 MIT
