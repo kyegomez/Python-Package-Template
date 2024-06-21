@@ -1,4 +1,4 @@
-[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+[![Multi-Modality](agorabanner.png)](https://discord.com/servers/agora-999382051935506503)
 
 # Python Package Template
 A easy, reliable, fluid template for python packages complete with docs, testing suites, readme's, github workflows, linting and much much more
